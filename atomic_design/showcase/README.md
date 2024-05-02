@@ -1,4 +1,4 @@
-# showcase
+# app
 
 A new Flutter project.
 

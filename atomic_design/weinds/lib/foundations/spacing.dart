@@ -1,9 +1,10 @@
+import 'package:weinds/weinds.dart';
 
-import 'package:design_system_weincode/tokens/spacing.dart';
-
+/// A class that consolidates foundation spacing definitions for the app.
 class WeincodeSpacingFoundation {
-  WeincodeSpacingFoundation._();
+  WeincodeSpacingFoundation._(); // Private constructor to prevent instantiation.
 
-  static const double spaceBetweenCards = WeincodeSpacing.spaceXS;
-
+  // Widget spacing
+  /// The spacing between cards (refer to [WeinDsSpacing] for details).
+  static const double spaceBetweenCards = WeinDSSpacing.spaceXS;
 }
