@@ -26,10 +26,6 @@ final mockClient = MockClient((request) async {
 // Create new instances of this class in each test.
 @GenerateMocks([http.Client])
 void main() {
-  setUpAll(() {
-    // ↓ required to avoid HTTP error 400 mocked returns
-    HttpOverrides.global = null;
-  });
   group('fetchAlbum', () {
     testWidgets('returns an Album if the http call completes successfully',
         (widgetTester) async {
