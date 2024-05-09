@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:dart_api_example/album.dart';
-import 'package:http/http.dart' as http;
+import 'package:http/http.dart';
 
 enum FetchAlbumError {
   notFound,
@@ -19,9 +19,10 @@ class FetchAlbumException implements Exception {
   String toString() => 'FetchAlbumException: $message';
 }
 
-Future<Album> fetchAlbum(String id) async {
-  final response = await http
-      .get(Uri.parse('https://jsonplaceholder.typicode.com/albums/$id'));
+Future<Album> fetchAlbum(String id, Client client) async {
+  final response = await client.get(
+      Uri.parse('https://jsonplaceholder.typicode.com/albums/$id'),
+      headers: {'Content-Type': 'application/json'});
 
   if (response.statusCode == 200) {
     return Album.fromJson(jsonDecode(response.body) as Map<String, dynamic>);
