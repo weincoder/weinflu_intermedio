@@ -1,6 +1,3 @@
-import 'dart:io';
-
-import 'package:flutter/material.dart';
 import 'package:flutter_api_example/dart_api_example.dart';
 import 'package:flutter_api_example/main.dart';
 import 'package:flutter_test/flutter_test.dart';
