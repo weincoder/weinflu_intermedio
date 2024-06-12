@@ -32,7 +32,7 @@ void main() {
             MyApp(
               futureAlbum: fetchAlbum('2', mockClient),
             ),
-            const Duration(seconds: 1));
+            duration: const Duration(seconds: 1));
         //Act
         await widgetTester.pumpAndSettle();
         final findedTitle = find.text(title);
@@ -48,7 +48,7 @@ void main() {
             MyApp(
               futureAlbum: fetchAlbum('3', mockClient),
             ),
-            const Duration(seconds: 1));
+            duration: const Duration(seconds: 1));
         //Act
         await widgetTester.pumpAndSettle();
         final findedTitle = find.text(title);
