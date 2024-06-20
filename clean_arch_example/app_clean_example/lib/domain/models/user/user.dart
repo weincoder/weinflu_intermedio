@@ -1,5 +1,5 @@
 ///Entidad que define los datos
-// asociados al usuario que accederá a la aplicación.
+/// asociados al usuario que accederá a la aplicación.
 class User {
   /// nombre del usuario Ej: julano
   String name;
