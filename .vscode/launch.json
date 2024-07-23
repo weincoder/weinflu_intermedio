@@ -1,0 +1,194 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flavors_example",
+            "cwd": "flavors_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flavors_example (profile mode)",
+            "cwd": "flavors_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flavors_example (release mode)",
+            "cwd": "flavors_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "responsive_design",
+            "cwd": "responsive_design",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "responsive_design (profile mode)",
+            "cwd": "responsive_design",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "responsive_design (release mode)",
+            "cwd": "responsive_design",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "dart_api_example",
+            "cwd": "api_example/dart_api_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_api_example",
+            "cwd": "api_example/flutter_api_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_api_example (profile mode)",
+            "cwd": "api_example/flutter_api_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_api_example (release mode)",
+            "cwd": "api_example/flutter_api_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "showcase",
+            "cwd": "atomic_design/showcase",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "showcase (profile mode)",
+            "cwd": "atomic_design/showcase",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "showcase (release mode)",
+            "cwd": "atomic_design/showcase",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "weinds",
+            "cwd": "atomic_design/weinds",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "weinds (profile mode)",
+            "cwd": "atomic_design/weinds",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "weinds (release mode)",
+            "cwd": "atomic_design/weinds",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "app_clean_example",
+            "cwd": "clean_arch_example/app_clean_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app_clean_example (profile mode)",
+            "cwd": "clean_arch_example/app_clean_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app_clean_example (release mode)",
+            "cwd": "clean_arch_example/app_clean_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "bloc_example",
+            "cwd": "state_management/bloc_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bloc_example (profile mode)",
+            "cwd": "state_management/bloc_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bloc_example (release mode)",
+            "cwd": "state_management/bloc_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "provider_example",
+            "cwd": "state_management/provider_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "provider_example (profile mode)",
+            "cwd": "state_management/provider_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "provider_example (release mode)",
+            "cwd": "state_management/provider_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "riverpod_example",
+            "cwd": "state_management/riverpod_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "riverpod_example (profile mode)",
+            "cwd": "state_management/riverpod_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "riverpod_example (release mode)",
+            "cwd": "state_management/riverpod_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
